@@ -1,4 +1,4 @@
-/* ============ MOBILE ============*/
+/* ============ mobile ============*/
 
 @media screen and (max-width: 767px) {
   .menu {
@@ -46,7 +46,7 @@
   fill: #404bbf;
 }
 
-/* ============ TABLET ============*/
+/* ============ tablet ============*/
 
 @media screen and (min-width: 768px) {
   .open-mobile-menu {
@@ -144,7 +144,7 @@
     color: #404bbf;
   }
 }
-/* ============ DESKTOP ============*/
+/* ============ desktop ============*/
 
 @media screen and (min-width: 1158px) {
   .container {

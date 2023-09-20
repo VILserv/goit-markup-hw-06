@@ -3,7 +3,8 @@
 @import "./base/container.css";
 /* UTILS */
 @import "./utils/visually-hidden.css";
-@import "./layout/header.css";
-
 
 /* LAYOUT */
+@import "./layout/header.css";
+@import "./layout/hero.css";
+
