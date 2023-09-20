@@ -1,0 +1,94 @@
+/* ============ mobile ============*/
+
+@media screen and (max-width: 1157px) {
+  .description {
+    display: flex;
+    justify-content: center;
+    padding: 96px 0;
+  }
+
+  .description-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 72px;
+  }
+
+  .description-name {
+    margin-bottom: 8px;
+    color: #2e2f42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+
+  .description-text {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+}
+/* =============== tablet ===============*/
+
+@media screen and (min-width: 768px) {
+  .description-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .description-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .description-name {
+    text-align: start;
+  }
+
+  .description-text {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+}
+
+/* =============== desktop ===============*/
+
+@media screen and (min-width: 1158px) {
+  .description {
+    padding: 120px 0;
+  }
+
+  .description-list {
+    gap: 24px;
+  }
+
+  .description-text-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    margin-bottom: 8px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background: #f4f4fd;
+  }
+
+  .description-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .description-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+}
