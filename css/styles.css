@@ -745,3 +745,7 @@ body {
   outline: transparent;
   background-color: #404bbf;
 }
+
+@media screen and (min-width: 768px) {
+  .open-mobile-menu {
+      display: none;
