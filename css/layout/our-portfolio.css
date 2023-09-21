@@ -93,7 +93,7 @@
     gap: 24px;
   }
 
-  .our-portfolio-list-itemm {
+  .our-portfolio-list-item {
     width: calc((100% - 24px) / 2);
   }
 }
