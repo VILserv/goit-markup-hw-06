@@ -1,6 +1,7 @@
 /* BASE */
 @import "./base/common.css";
 @import "./base/container.css";
+
 /* UTILS */
 @import "./utils/visually-hidden.css";
 
@@ -8,4 +9,4 @@
 @import "./layout/header.css";
 @import "./layout/hero.css";
 @import "./layout/description.css";
-
+@import "./layout/our-team.css";
