@@ -486,7 +486,7 @@ button:focus {
 .footer-subscribe-icon {
   margin-left: 16px;
 }
-/* ========== MODAL ========== */
+/* ========== modal ========== */
 
 .backdrop {
   position: fixed;
@@ -503,11 +503,11 @@ button:focus {
   pointer-events: none;
 }
 
-/* .backdrop.is-open {
+.backdrop.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-} */
+}
 
 .modal {
   position: absolute;

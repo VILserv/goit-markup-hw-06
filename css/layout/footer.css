@@ -1,0 +1,237 @@
+/* ============ mobile ============*/
+.page-footer {
+  padding: 96px 0;
+  background-color: #2e2f42;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer-wraper {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logotype {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 72px;
+}
+
+.logotype-footer-link {
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 16px;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-text {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  max-width: 264px;
+  color: #f4f4fd;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 72px;
+}
+
+.footer-headline {
+  margin-bottom: 16px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.footer-social-network {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-soc-media-item {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-social-network-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-network-list-link:hover,
+.footer-social-network-list-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer-social-network-list-icon {
+  fill: #f4f4fd;
+}
+
+.footer-subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-subscribe-headline {
+  margin-bottom: 16px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.footer-subscribe-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-subscribe-input {
+  width: 264px;
+  height: 40px;
+  padding-left: 16px;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: transparent;
+}
+
+.footer-subscribe-button {
+  display: flex;
+  width: 165px;
+  height: 40px;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  background: #4d5ae5;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-subscribe-button:hover,
+.footer-subscribe-button:focus {
+  background-color: #404bbf;
+}
+/* ============ tablet ============*/
+
+@media screen and (min-width: 768px) {
+  .footer {
+    display: flex;
+  }
+
+  .footer-container {
+    display: block;
+  }
+
+  .footer-wraper {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 24px;
+  }
+
+  .footer-logotype {
+    display: block;
+  }
+
+  .footer-social {
+    align-items: last baseline;
+  }
+
+  .footer-subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .footer-subscribe-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+  }
+}
+/* ============ desktop ============*/
+
+@media screen and (min-width: 1158px) {
+
+    .page-footer {
+        padding: 100px 0;
+    }
+    
+    .footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: 0 auto;
+    }
+
+    .footer-wraper {
+        gap: 120px;
+    }
+    
+    .footer-logotype {
+        margin-bottom: 0;
+    }
+
+    .footer-social {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        margin-bottom: 0;
+    }
+    
+    .footer-subscribe {
+        margin-left: 80px;
+    }
+    
+    .footer-subscribe-form {
+        display: flex;
+        gap: 24px;
+    }
+}
