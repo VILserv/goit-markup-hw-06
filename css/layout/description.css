@@ -4,11 +4,7 @@
   .description-text-icon {
     display: none;
   }
-  .description {
-    display: flex;
-    justify-content: center;
-    padding: 96px 0;
-  }
+  
 
   .description-list {
     display: flex;
