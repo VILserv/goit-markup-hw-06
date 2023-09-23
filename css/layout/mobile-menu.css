@@ -51,7 +51,8 @@
 }
 
 .mobile-nav-item {
-  margin-bottom: auto;
+
+  margin-bottom: 40px;
 }
 
 .mobile-nav-link {
@@ -104,7 +105,9 @@
   width: 40px;
   height: 40px;
 }
-
+.current {
+  color: #404bbf;
+}
 .mobile-soc-item-link {
   display: flex;
   justify-content: center;

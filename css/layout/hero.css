@@ -137,6 +137,7 @@
 @media screen and (min-width: 1158px) {
   .hero-section {
     max-width: 1440px;
+    height: 600px;
     margin-left: auto;
     margin-right: auto;
 
@@ -186,6 +187,7 @@
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  padding-top: 116px;
 }
 
 .button {
