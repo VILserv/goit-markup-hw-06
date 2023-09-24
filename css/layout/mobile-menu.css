@@ -47,7 +47,7 @@
 }
 
 .mobile-nav {
-  margin-bottom: 168px;
+  margin-bottom: auto;
 }
 
 .mobile-nav-item {
@@ -72,6 +72,7 @@
 
 .mobile-address {
   margin-bottom: 48px;
+  font-style: normal;
 }
 
 .mobile-address-list {

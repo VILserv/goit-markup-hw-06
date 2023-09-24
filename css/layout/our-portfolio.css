@@ -26,7 +26,6 @@
 .our-portfolio-list-item {
   box-sizing: border-box;
   object-fit: cover;
-  border: 1px solid #e7e9fc;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -86,12 +85,17 @@
   .our-portfolio-list {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 48px 24px;
   }
 
   .our-portfolio-list-item {
     width: calc((100% - 24px) / 2);
   }
+  .name-description {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 }
 
 /* =============== desktop ===============*/
